@@ -1,4 +1,4 @@
-Defini‡Æo de macro inv lida.
+Definiâ€¡Ã†o de macro invÂ lida.
 dir
 cd..
 cls
