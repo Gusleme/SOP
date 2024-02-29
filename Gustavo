@@ -1,0 +1,51 @@
+Defini‡Æo de macro inv lida.
+dir
+cd..
+cls
+tasklist
+cls
+doskey /history
+doskey /history >> Comandos
+tree
+tree/f
+type Comandos
+cls
+ren /y atividade Trabalho
+ren /y atividade01 Trabalho
+cd atividade01
+ren /y atividade01 Trabalho
+cd ..
+ren atividade01 Trabalho
+dir
+md Documentos
+cd Documentos
+echo teste>>Projetos
+echo teste>>Pessoais
+dir
+cd ..
+move Trabalhos Documentos
+cls
+cd Documentos
+del Pessoais
+del Projetos
+md Pessoais
+md Projetos
+dir
+cd ..
+move Trabalhos Documentos
+move backup Documentos
+move Trabalho Documentos
+dir
+cd Documentos
+ren Pessoais Lazer
+dir
+cd Lazer
+copy con Viagens.txt
+Estados Unidos
+Espanha
+Portugal
+Japao
+Chile
+cd..
+tree /f
+doskey /history >> Gustavo Leme.txt
